@@ -81,7 +81,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/rendiap/sshmax/main/"
+    REPO="https://raw.githubusercontent.com/sshmax07/sshmax/main/"
 
 ####
 start=$(date +%s)
@@ -529,7 +529,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit IP & Quota"
-wget -q https://raw.githubusercontent.com/rendiap/sshmax/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q https://raw.githubusercontent.com/sshmax07/sshmax/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
