@@ -28,7 +28,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/rendiap/sshmax/main/menu/menu.zip
+    wget https://raw.githubusercontent.com/sshmax07/sshmax/main/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
